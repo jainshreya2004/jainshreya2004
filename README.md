@@ -32,7 +32,7 @@
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="assets/achievements.svg" width="85%" alt="Hackathon achievements and awards"/>
+  <img src="assets/achievements.svg?v=2" width="85%" alt="Hackathon achievements and awards"/>
 </div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
