@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
   <defs>
-    <!-- Background Pink Gradient -->
+    <!-- Background Gradient -->
     <linearGradient id="zt-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d0216"/>
-      <stop offset="50%" stop-color="#190426"/>
-      <stop offset="100%" stop-color="#28053a"/>
+      <stop offset="0%" stop-color="#050a18"/>
+      <stop offset="50%" stop-color="#09142b"/>
+      <stop offset="100%" stop-color="#102042"/>
     </linearGradient>
 
-    <!-- Title Gradient -->
+    <!-- Title Gradient: Blue -> Mint Green -> Pearl Pink -->
     <linearGradient id="zt-title" x1="0" x2="1">
-      <stop offset="0%" stop-color="#ff79c6"/>
-      <stop offset="50%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#f43f5e"/>
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#00f5a0"/>
+      <stop offset="100%" stop-color="#ff9ac8"/>
     </linearGradient>
 
-    <!-- Border Pulse Gradient -->
-    <linearGradient id="zt-bd" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f472b6"/>
-      <stop offset="50%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#db2777"/>
+    <!-- Laser Border Gradient -->
+    <linearGradient id="zt-bd-mix" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#00f5a0"/>
+      <stop offset="100%" stop-color="#ff9ac8"/>
     </linearGradient>
 
     <filter id="zt-glow" x="-20%" y="-20%" width="140%" height="140%">
@@ -34,93 +34,93 @@
   <g clip-path="url(#zt-clip)">
     <rect width="900" height="260" fill="url(#zt-bg)"/>
 
-    <!-- Glowing Background Accent -->
-    <circle cx="120" cy="60" r="90" fill="#ec4899" opacity="0.22"/>
-    <circle cx="820" cy="180" r="100" fill="#f43f5e" opacity="0.18"/>
+    <!-- Ambient Glowing Orbs -->
+    <circle cx="120" cy="60" r="90" fill="#00d2ff" opacity="0.2"/>
+    <circle cx="820" cy="180" r="100" fill="#00f5a0" opacity="0.18"/>
+    <circle cx="500" cy="100" r="80" fill="#ff9ac8" opacity="0.15"/>
 
-    <!-- Top Tag & Problem Statement -->
+    <!-- Top Tags -->
     <g transform="translate(32, 28)">
-      <rect x="0" y="0" width="125" height="22" rx="6" fill="#ec4899" fill-opacity="0.2" stroke="#f472b6" stroke-width="1"/>
-      <text x="62.5" y="15" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1" fill="#f472b6">TEAM PROJECT</text>
+      <rect x="0" y="0" width="125" height="22" rx="6" fill="#00f5a0" fill-opacity="0.18" stroke="#00f5a0" stroke-width="1"/>
+      <text x="62.5" y="15" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1" fill="#00f5a0">TEAM PROJECT</text>
 
-      <rect x="135" y="0" width="160" height="22" rx="6" fill="#db2777" fill-opacity="0.2" stroke="#db2777" stroke-width="1"/>
-      <text x="215" y="15" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1" fill="#ff79c6">NTRO SIH26149</text>
+      <rect x="135" y="0" width="160" height="22" rx="6" fill="#00d2ff" fill-opacity="0.18" stroke="#00d2ff" stroke-width="1"/>
+      <text x="215" y="15" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1" fill="#00d2ff">NTRO SIH26149</text>
     </g>
 
-    <!-- Main Title -->
+    <!-- Main Title: Blue + Green + Pearl Pink Gradient -->
     <text x="32" y="82" font-family="'Segoe UI', -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="1.5" fill="url(#zt-title)" filter="url(#zt-glow)">
       ZeroTrace — Data Sanitization &amp; File Recovery Platform
     </text>
 
     <!-- Description Lines -->
-    <text x="32" y="112" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-weight="400" fill="#fdf2f8">
+    <text x="32" y="112" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-weight="400" fill="#f1f5f9">
       Defense-grade platform unifying irreversible media erasure (NIST SP 800-88 / DoD 5220.22-M)
     </text>
-    <text x="32" y="132" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-weight="400" fill="#fdf2f8">
+    <text x="32" y="132" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" font-weight="400" fill="#f1f5f9">
       with forensic file carving and tamper-evident audit logging secured by SHA-256 Merkle trees.
     </text>
 
-    <!-- Feature Bullet Points -->
+    <!-- Feature Highlights -->
     <g transform="translate(32, 160)">
-      <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#fda4af">
-        🛡️ Standards: <tspan fill="#fce7f3">NIST SP 800-88 &amp; DoD 5220.22-M</tspan>
+      <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#00f5a0">
+        🛡️ Standards: <tspan fill="#f1f5f9">NIST SP 800-88 &amp; DoD 5220.22-M</tspan>
       </text>
-      <text x="300" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#fda4af">
-        🔍 Recovery: <tspan fill="#fce7f3">Raw Disk File Carving</tspan>
+      <text x="300" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#00d2ff">
+        🔍 Recovery: <tspan fill="#f1f5f9">Raw Disk File Carving</tspan>
       </text>
-      <text x="560" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#fda4af">
-        🔗 Integrity: <tspan fill="#fce7f3">Merkle Trees &amp; Hash Chains</tspan>
+      <text x="560" y="0" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#ff9ac8">
+        🔗 Integrity: <tspan fill="#f1f5f9">Merkle Trees &amp; Hash Chains</tspan>
       </text>
     </g>
 
     <!-- Tech Stack Pill Row -->
     <g transform="translate(32, 195)">
-      <rect x="0" y="0" width="836" height="42" rx="10" fill="#180424" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="18" y="26" font-family="'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f472b6">
+      <rect x="0" y="0" width="836" height="42" rx="10" fill="#0c1429" stroke="#00f5a0" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="18" y="26" font-family="'Courier New', monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#00f5a0">
         TECH STACK:
       </text>
 
-      <!-- Tech Stack Badges -->
       <g transform="translate(125, 8)">
-        <!-- Python -->
-        <rect x="0" y="0" width="70" height="26" rx="6" fill="#240536" stroke="#f472b6" stroke-width="1"/>
-        <text x="35" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">Python</text>
+        <!-- Python (Green) -->
+        <rect x="0" y="0" width="70" height="26" rx="6" fill="#13203d" stroke="#00f5a0" stroke-width="1"/>
+        <text x="35" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Python</text>
 
-        <!-- FastAPI -->
-        <rect x="78" y="0" width="75" height="26" rx="6" fill="#240536" stroke="#ec4899" stroke-width="1"/>
-        <text x="115.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">FastAPI</text>
+        <!-- FastAPI (Blue) -->
+        <rect x="78" y="0" width="75" height="26" rx="6" fill="#13203d" stroke="#00d2ff" stroke-width="1"/>
+        <text x="115.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">FastAPI</text>
 
-        <!-- React 19 -->
-        <rect x="161" y="0" width="75" height="26" rx="6" fill="#240536" stroke="#db2777" stroke-width="1"/>
-        <text x="198.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">React 19</text>
+        <!-- React 19 (Pearl Pink) -->
+        <rect x="161" y="0" width="75" height="26" rx="6" fill="#13203d" stroke="#ff9ac8" stroke-width="1"/>
+        <text x="198.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">React 19</text>
 
-        <!-- Vite -->
-        <rect x="244" y="0" width="60" height="26" rx="6" fill="#240536" stroke="#f472b6" stroke-width="1"/>
-        <text x="274" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">Vite 7</text>
+        <!-- Vite (Blue) -->
+        <rect x="244" y="0" width="60" height="26" rx="6" fill="#13203d" stroke="#00d2ff" stroke-width="1"/>
+        <text x="274" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Vite 7</text>
 
-        <!-- TailwindCSS -->
-        <rect x="312" y="0" width="92" height="26" rx="6" fill="#240536" stroke="#ec4899" stroke-width="1"/>
-        <text x="358" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">Tailwind v4</text>
+        <!-- Tailwind (Green) -->
+        <rect x="312" y="0" width="92" height="26" rx="6" fill="#13203d" stroke="#00f5a0" stroke-width="1"/>
+        <text x="358" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Tailwind v4</text>
 
-        <!-- GSAP -->
-        <rect x="412" y="0" width="65" height="26" rx="6" fill="#240536" stroke="#db2777" stroke-width="1"/>
-        <text x="444.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">GSAP</text>
+        <!-- GSAP (Pearl Pink) -->
+        <rect x="412" y="0" width="65" height="26" rx="6" fill="#13203d" stroke="#ff9ac8" stroke-width="1"/>
+        <text x="444.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">GSAP</text>
 
-        <!-- Desktop + Web -->
-        <rect x="485" y="0" width="125" height="26" rx="6" fill="#240536" stroke="#f472b6" stroke-width="1"/>
-        <text x="547.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">Windows + Web</text>
+        <!-- Windows + Web (Blue) -->
+        <rect x="485" y="0" width="125" height="26" rx="6" fill="#13203d" stroke="#00d2ff" stroke-width="1"/>
+        <text x="547.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Windows + Web</text>
 
-        <!-- Cryptography -->
-        <rect x="618" y="0" width="85" height="26" rx="6" fill="#240536" stroke="#ec4899" stroke-width="1"/>
-        <text x="660.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fce7f3">Crypto I/O</text>
+        <!-- Crypto (Green) -->
+        <rect x="618" y="0" width="85" height="26" rx="6" fill="#13203d" stroke="#00f5a0" stroke-width="1"/>
+        <text x="660.5" y="17" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Crypto I/O</text>
       </g>
     </g>
   </g>
 
-  <!-- Card Border -->
+  <!-- Frame -->
   <rect x="2" y="2" width="896" height="256" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
-  <!-- Travelling Pink Laser Border -->
-  <rect x="2" y="2" width="896" height="256" rx="15" fill="none" stroke="url(#zt-bd)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="240 2200" pathLength="2440">
+  <!-- Laser Border: Blue -> Green -> Pearl Pink -->
+  <rect x="2" y="2" width="896" height="256" rx="15" fill="none" stroke="url(#zt-bd-mix)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="240 2200" pathLength="2440">
     <animate attributeName="stroke-dashoffset" from="0" to="-2440" dur="6s" repeatCount="indefinite"/>
   </rect>
 </svg>

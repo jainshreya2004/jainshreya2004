@@ -1,24 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="1000" height="30">
   <defs>
-    <linearGradient id="d" x1="0" x2="1">
-      <stop offset="0" stop-color="#f472b6" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ec4899"/>
-      <stop offset="1" stop-color="#db2777" stop-opacity="0"/>
+    <!-- Tricolor Gradient: Blue -> Mint Green -> Pearl Pink -->
+    <linearGradient id="div-mix" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#00f5a0"/>
+      <stop offset="75%" stop-color="#ff9ac8"/>
+      <stop offset="100%" stop-color="#ff9ac8" stop-opacity="0"/>
     </linearGradient>
-    <filter id="g"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="div-glow"><feGaussianBlur stdDeviation="3.5"/></filter>
   </defs>
+
   <!-- Main Glowing Line -->
-  <rect x="0" y="14" width="1000" height="2" fill="url(#d)"/>
-  <!-- Glowing Traveling Orb -->
-  <circle r="7" cy="15" fill="#f472b6" filter="url(#g)">
+  <rect x="0" y="14" width="1000" height="2" fill="url(#div-mix)"/>
+
+  <!-- Glowing Traveling Orb in Mint Green with Pearl/Cyan Halo -->
+  <circle r="7.5" cy="15" fill="#00f5a0" filter="url(#div-glow)">
     <animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle r="3" cy="15" fill="#fff">
+  <circle r="3" cy="15" fill="#ffffff">
     <animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/>
   </circle>
+
   <!-- Center Rotating Diamond -->
   <g transform="translate(500 15)">
-    <rect x="-8" y="-8" width="16" height="16" fill="#170424" stroke="#f472b6" stroke-width="2" transform="rotate(45)">
+    <rect x="-8" y="-8" width="16" height="16" fill="#060b18" stroke="#00d2ff" stroke-width="2" transform="rotate(45)">
       <animateTransform attributeName="transform" type="rotate" values="45;405" dur="8s" repeatCount="indefinite"/>
     </rect>
   </g>

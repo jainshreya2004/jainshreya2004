@@ -4,10 +4,10 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/CYBERSECURITY%20ENTHUSIAST-ec4899?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=180424" alt="Cybersecurity Enthusiast"/>
-<img src="https://img.shields.io/badge/DSA-db2777?style=for-the-badge&labelColor=180424" alt="DSA"/>
-<img src="https://img.shields.io/badge/B.TECH%204TH%20YEAR-f472b6?style=for-the-badge&labelColor=180424" alt="B.Tech 4th year"/>
-<img src="https://img.shields.io/github/followers/jainshreya2004?label=FOLLOWERS&style=for-the-badge&color=ec4899&labelColor=180424&logo=github" alt="followers"/>
+<img src="https://img.shields.io/badge/CYBERSECURITY%20ENTHUSIAST-00f5a0?style=for-the-badge&logo=hackthebox&logoColor=080f21&labelColor=080f21" alt="Cybersecurity Enthusiast"/>
+<img src="https://img.shields.io/badge/DSA-00d2ff?style=for-the-badge&labelColor=080f21" alt="DSA"/>
+<img src="https://img.shields.io/badge/B.TECH%204TH%20YEAR-ff9ac8?style=for-the-badge&labelColor=080f21" alt="B.Tech 4th year"/>
+<img src="https://img.shields.io/github/followers/jainshreya2004?label=FOLLOWERS&style=for-the-badge&color=00d2ff&labelColor=080f21&logo=github" alt="followers"/>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -32,7 +32,7 @@
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="assets/achievements.svg" width="85%" alt="Hackathon achievements and awards"/>
+  <img src="assets/achievements.svg" width="85%" alt="Hackathon achievements: Gold, Silver, Bronze awards"/>
 </div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
@@ -50,10 +50,10 @@
 <br/><br/>
 
 <a href="https://github.com/MK-codes365/zerotrace" target="_blank">
-  <img src="https://img.shields.io/badge/ZeroTrace%20Repo-MK--codes365%2Fzerotrace-ec4899?style=for-the-badge&logo=github&logoColor=white&labelColor=180424" alt="ZeroTrace GitHub Repo"/>
+  <img src="https://img.shields.io/badge/ZeroTrace%20Repo-MK--codes365%2Fzerotrace-00d2ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080f21" alt="ZeroTrace GitHub Repo"/>
 </a>
-<img src="https://img.shields.io/badge/NTRO-SIH26149-db2777?style=for-the-badge&logo=shield&logoColor=white&labelColor=180424" alt="NTRO Problem Statement"/>
-<img src="https://img.shields.io/badge/Status-Defense--Grade%20Forensic%20Platform-f472b6?style=for-the-badge&labelColor=180424" alt="Defense-Grade Platform"/>
+<img src="https://img.shields.io/badge/NTRO-SIH26149-00f5a0?style=for-the-badge&logo=shield&logoColor=080f21&labelColor=080f21" alt="NTRO Problem Statement"/>
+<img src="https://img.shields.io/badge/Status-Defense--Grade%20Forensic%20Platform-ff9ac8?style=for-the-badge&labelColor=080f21" alt="Defense-Grade Platform"/>
 
 </div>
 
@@ -103,12 +103,12 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&title_color=f472b6&icon_color=ec4899&text_color=fda4af&bg_color=180424&border_color=f472b6&count_private=true" alt="stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&title_color=f472b6&icon_color=ec4899&text_color=fda4af&bg_color=180424&border_color=f472b6" alt="top languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&title_color=00d2ff&icon_color=00f5a0&text_color=ff9ac8&bg_color=080f21&border_color=00f5a0&count_private=true" alt="stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&title_color=00d2ff&icon_color=ff9ac8&text_color=00f5a0&bg_color=080f21&border_color=00d2ff" alt="top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=jainshreya2004&background=180424&border=f472b6&stroke=ec4899&ring=f472b6&fire=ec4899&currStreakNum=fda4af&sideNums=fda4af&currStreakLabel=f472b6&sideLabels=f472b6&dates=fda4af" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=jainshreya2004&background=080f21&border=00f5a0&stroke=00d2ff&ring=ff9ac8&fire=00f5a0&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00d2ff&sideLabels=ff9ac8&dates=bae6fd" alt="streak"/>
 
 </div>
 

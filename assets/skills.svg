@@ -2,25 +2,17 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="sk-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0c0214"/>
-      <stop offset="50%" stop-color="#180424"/>
-      <stop offset="100%" stop-color="#240536"/>
+      <stop offset="0%" stop-color="#050a18"/>
+      <stop offset="50%" stop-color="#0a142e"/>
+      <stop offset="100%" stop-color="#112247"/>
     </linearGradient>
 
-    <!-- Pink Border Gradient -->
-    <linearGradient id="sk-bd" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f472b6"/>
-      <stop offset="50%" stop-color="#ec4899"/>
-      <stop offset="100%" stop-color="#db2777"/>
+    <!-- Laser Border Gradient: Blue -> Green -> Pearl Pink -->
+    <linearGradient id="sk-bd-mix" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#00f5a0"/>
+      <stop offset="100%" stop-color="#ff9ac8"/>
     </linearGradient>
-
-    <filter id="sk-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
 
     <clipPath id="sk-clip">
       <rect width="900" height="340" rx="16"/>
@@ -30,111 +22,102 @@
   <g clip-path="url(#sk-clip)">
     <rect width="900" height="340" fill="url(#sk-bg)"/>
 
-    <!-- Ambient Glowing Pink Lights -->
-    <circle cx="150" cy="80" r="100" fill="#ec4899" opacity="0.18"/>
-    <circle cx="750" cy="260" r="120" fill="#db2777" opacity="0.18"/>
+    <!-- Ambient Glow Lights -->
+    <circle cx="150" cy="80" r="100" fill="#00d2ff" opacity="0.18"/>
+    <circle cx="450" cy="260" r="110" fill="#00f5a0" opacity="0.16"/>
+    <circle cx="750" cy="80" r="100" fill="#ff9ac8" opacity="0.18"/>
 
-    <!-- Category 1: Languages & Frontend -->
+    <!-- Category 1: Languages & Web (Pearl Pink Highlights) -->
     <g transform="translate(30, 24)">
-      <!-- Header -->
-      <rect x="0" y="0" width="4" height="18" rx="2" fill="#ec4899"/>
-      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#f472b6">LANGUAGES &amp; WEB</text>
+      <rect x="0" y="0" width="4" height="18" rx="2" fill="#ff9ac8"/>
+      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#ff9ac8">LANGUAGES &amp; WEB</text>
 
-      <!-- Badges Row 1 -->
       <g transform="translate(0, 32)">
-        <rect x="0" y="0" width="125" height="32" rx="10" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="62.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🐍 Python</text>
+        <rect x="0" y="0" width="125" height="32" rx="10" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="62.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🐍 Python</text>
 
-        <rect x="135" y="0" width="115" height="32" rx="10" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="192.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">⚡ C++</text>
+        <rect x="135" y="0" width="115" height="32" rx="10" fill="#0e172e" stroke="#f472b6" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="192.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">⚡ C++</text>
 
-        <rect x="260" y="0" width="145" height="32" rx="10" fill="#1b0526" stroke="#db2777" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="332.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">📜 JavaScript</text>
+        <rect x="260" y="0" width="145" height="32" rx="10" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="332.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">📜 JavaScript</text>
       </g>
 
-      <!-- Badges Row 2 -->
       <g transform="translate(0, 72)">
-        <rect x="0" y="0" width="115" height="32" rx="10" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="57.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">⚛️ React</text>
+        <rect x="0" y="0" width="115" height="32" rx="10" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="57.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">⚛️ React</text>
 
-        <rect x="125" y="0" width="135" height="32" rx="10" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="192.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🌐 HTML5 &amp; CSS3</text>
+        <rect x="125" y="0" width="135" height="32" rx="10" fill="#0e172e" stroke="#f472b6" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="192.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🌐 HTML5 &amp; CSS3</text>
 
-        <rect x="270" y="0" width="135" height="32" rx="10" fill="#1b0526" stroke="#db2777" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="337.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🎨 TailwindCSS</text>
+        <rect x="270" y="0" width="135" height="32" rx="10" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="337.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🎨 TailwindCSS</text>
       </g>
     </g>
 
-    <!-- Category 2: Tools & Databases -->
+    <!-- Category 2: Tools & Databases (Vibrant Blue Highlights) -->
     <g transform="translate(460, 24)">
-      <!-- Header -->
-      <rect x="0" y="0" width="4" height="18" rx="2" fill="#db2777"/>
-      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#ff79c6">TOOLS &amp; DATABASES</text>
+      <rect x="0" y="0" width="4" height="18" rx="2" fill="#00d2ff"/>
+      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#00d2ff">TOOLS &amp; DATABASES</text>
 
-      <!-- Badges Row 1 -->
       <g transform="translate(0, 32)">
-        <rect x="0" y="0" width="130" height="32" rx="10" fill="#1b0526" stroke="#db2777" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="65" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🗄️ MySQL &amp; SQL</text>
+        <rect x="0" y="0" width="130" height="32" rx="10" fill="#0e172e" stroke="#00d2ff" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="65" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🗄️ MySQL &amp; SQL</text>
 
-        <rect x="140" y="0" width="125" height="32" rx="10" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="202.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🐧 Linux (Ubuntu)</text>
+        <rect x="140" y="0" width="125" height="32" rx="10" fill="#0e172e" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="202.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🐧 Linux (Ubuntu)</text>
 
-        <rect x="275" y="0" width="135" height="32" rx="10" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="342.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🐙 Git &amp; GitHub</text>
+        <rect x="275" y="0" width="135" height="32" rx="10" fill="#0e172e" stroke="#00d2ff" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="342.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🐙 Git &amp; GitHub</text>
       </g>
 
-      <!-- Badges Row 2 -->
       <g transform="translate(0, 72)">
-        <rect x="0" y="0" width="130" height="32" rx="10" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="65" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">💻 VS Code</text>
+        <rect x="0" y="0" width="130" height="32" rx="10" fill="#0e172e" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="65" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">💻 VS Code</text>
 
-        <rect x="140" y="0" width="135" height="32" rx="10" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="207.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">⚡ Vite &amp; Node.js</text>
+        <rect x="140" y="0" width="135" height="32" rx="10" fill="#0e172e" stroke="#00d2ff" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="207.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">⚡ Vite &amp; Node.js</text>
 
-        <rect x="285" y="0" width="125" height="32" rx="10" fill="#1b0526" stroke="#db2777" stroke-opacity="0.6" stroke-width="1.2"/>
-        <text x="347.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#fdf2f8">🔍 Wireshark</text>
+        <rect x="285" y="0" width="125" height="32" rx="10" fill="#0e172e" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="347.5" y="20.5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff">🔍 Wireshark</text>
       </g>
     </g>
 
-    <!-- Divider Line between Tools and Core Concepts -->
-    <line x1="30" y1="152" x2="870" y2="152" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1"/>
+    <line x1="30" y1="152" x2="870" y2="152" stroke="#00f5a0" stroke-opacity="0.25" stroke-width="1"/>
 
-    <!-- Category 3: Core Computer Science & Cybersecurity Concepts -->
+    <!-- Category 3: Core CS & Cybersecurity Concepts (Mint Green Highlights) -->
     <g transform="translate(30, 172)">
-      <!-- Header -->
-      <rect x="0" y="0" width="4" height="18" rx="2" fill="#f472b6"/>
-      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#f472b6">CORE CS &amp; CYBERSECURITY CONCEPTS</text>
+      <rect x="0" y="0" width="4" height="18" rx="2" fill="#00f5a0"/>
+      <text x="12" y="14" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#00f5a0">CORE CS &amp; CYBERSECURITY CONCEPTS</text>
 
-      <!-- Core Concepts Row 1 -->
       <g transform="translate(0, 32)">
-        <rect x="0" y="0" width="265" height="36" rx="12" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="132.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">📊 Data Structures &amp; Algorithms</text>
+        <rect x="0" y="0" width="265" height="36" rx="12" fill="#0e172e" stroke="#00f5a0" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="132.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">📊 Data Structures &amp; Algorithms</text>
 
-        <rect x="280" y="0" width="265" height="36" rx="12" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="412.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">🔬 Digital Forensics &amp; File Carving</text>
+        <rect x="280" y="0" width="265" height="36" rx="12" fill="#0e172e" stroke="#00d2ff" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="412.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">🔬 Digital Forensics &amp; File Carving</text>
 
-        <rect x="560" y="0" width="280" height="36" rx="12" fill="#1b0526" stroke="#db2777" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="700" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">🔐 Cryptography &amp; Merkle Trees</text>
+        <rect x="560" y="0" width="280" height="36" rx="12" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="700" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">🔐 Cryptography &amp; Merkle Trees</text>
       </g>
 
-      <!-- Core Concepts Row 2 -->
       <g transform="translate(0, 78)">
-        <rect x="0" y="0" width="265" height="36" rx="12" fill="#1b0526" stroke="#db2777" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="132.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">🖥️ Operating Systems</text>
+        <rect x="0" y="0" width="265" height="36" rx="12" fill="#0e172e" stroke="#00d2ff" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="132.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">🖥️ Operating Systems</text>
 
-        <rect x="280" y="0" width="265" height="36" rx="12" fill="#1b0526" stroke="#ec4899" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="412.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">🌐 Computer Networks (TCP/IP)</text>
+        <rect x="280" y="0" width="265" height="36" rx="12" fill="#0e172e" stroke="#00f5a0" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="412.5" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">🌐 Computer Networks (TCP/IP)</text>
 
-        <rect x="560" y="0" width="280" height="36" rx="12" fill="#1b0526" stroke="#f472b6" stroke-opacity="0.75" stroke-width="1.5"/>
-        <text x="700" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fdf2f8">🗄️ Database Management (DBMS)</text>
+        <rect x="560" y="0" width="280" height="36" rx="12" fill="#0e172e" stroke="#ff9ac8" stroke-opacity="0.75" stroke-width="1.5"/>
+        <text x="700" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">🗄️ Database Management (DBMS)</text>
       </g>
     </g>
   </g>
 
-  <!-- Border Frame -->
+  <!-- Frame -->
   <rect x="2" y="2" width="896" height="336" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
-  <!-- Travelling Pink Laser Border -->
-  <rect x="2" y="2" width="896" height="336" rx="15" fill="none" stroke="url(#sk-bd)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="240 2200" pathLength="2440">
+  <!-- Laser Border: Blue -> Green -> Pearl Pink -->
+  <rect x="2" y="2" width="896" height="336" rx="15" fill="none" stroke="url(#sk-bd-mix)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="240 2200" pathLength="2440">
     <animate attributeName="stroke-dashoffset" from="0" to="-2440" dur="6s" repeatCount="indefinite"/>
   </rect>
 </svg>
