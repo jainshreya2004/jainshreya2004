@@ -115,7 +115,11 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jainshreya2004/jainshreya2004/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jainshreya2004/jainshreya2004/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jainshreya2004/jainshreya2004/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution Snake Animation" src="assets/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
 
 </div>
 
@@ -125,8 +129,25 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN" title="Connect on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:YOUR-EMAIL@example.com" title="Send an email"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<p align="center">
+  <em>Always excited to connect, collaborate on cybersecurity & web projects, or discuss tech!</em>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jainshreya2004" target="_blank" title="Connect with Shreya on LinkedIn">
+    <img src="assets/badge-linkedin.svg" alt="LinkedIn" height="50"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:jainshreya6393@gmail.com" title="Send an Email to Shreya">
+    <img src="assets/badge-email.svg" alt="Email" height="50"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/jainshreya2004" target="_blank" title="View Shreya's GitHub Profile">
+    <img src="assets/badge-github.svg" alt="GitHub" height="50"/>
+  </a>
+</p>
+
+<br/>
 
 <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by"/>
 
