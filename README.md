@@ -1,60 +1,58 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Shreya%20Jain&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cybersecurity%20%7C%20DSA%20%7C%20Hackathons&descAlignY=58&descSize=20" width="100%" alt="header"/>
+<img src="assets/header.svg" width="100%" alt="Shreya Jain - Cybersecurity | DSA | Hackathons"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=700&lines=B.Tech+4th+Year+Student+at+CSJMU+Kanpur;Passionate+about+Cybersecurity;Learning+DSA+and+Cybersecurity+Concepts;Contributing+to+ZeroTrace+as+a+team+member" alt="Typing animation" />
+<br/>
 
-<br/><br/>
+<img src="https://img.shields.io/badge/CYBERSECURITY-0f172a?style=for-the-badge&logo=hackthebox&logoColor=22d3ee" alt="Cybersecurity"/>
+<img src="https://img.shields.io/badge/DSA-7c3aed?style=for-the-badge" alt="DSA"/>
+<img src="https://img.shields.io/badge/B.TECH%204TH%20YEAR-e879f9?style=for-the-badge&labelColor=0f172a" alt="B.Tech 4th year"/>
+<img src="https://img.shields.io/github/followers/jainshreya2004?label=FOLLOWERS&style=for-the-badge&color=22d3ee&labelColor=0f172a&logo=github" alt="followers"/>
 
-<img src="https://komarev.com/ghpvc/?username=jainshreya2004&label=Profile%20Views&color=0284c7&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/jainshreya2004?label=Followers&style=for-the-badge&color=4f46e5&logo=github" alt="followers"/>
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 </div>
 
----
-
 ## 🌟 About Me
 
-- 🎓 **B.Tech Student (4th Year)** at Chhatrapati Shahu Ji Maharaj University, Kanpur
-- 🔐 Passionate about **Cybersecurity**
-- 🌱 Learning **Data Structures & Algorithms** and **Cybersecurity concepts**
-- 🧩 Working on **ZeroTrace** as a team member
+<div align="center">
+  <img src="assets/terminal.svg" width="85%" alt="Terminal: Shreya Jain, B.Tech 4th year at CSJMU Kanpur, interested in cybersecurity, digital forensics and DSA"/>
+</div>
+
+<br/>
+
+- 🎓 **B.Tech student (4th year)** at Chhatrapati Shahu Ji Maharaj University, Kanpur
+- 🔐 Passionate about **cybersecurity**
+- 🌱 Learning **Data Structures & Algorithms** and **cybersecurity concepts**
+- 🧩 Working on **ZeroTrace** with my team
 - 🤝 Open to collaborating on cybersecurity and web projects
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🏆 Achievements
 
 <div align="center">
-
-| | Achievement | Event |
-| :-: | :-- | :-- |
-| 🥇 | **Finalist** | Elite Hack 1.0 (National Hackathon) |
-| 🥇 | **Finalist** | HackShodh (CSJM University, Kanpur) |
-| 🥈 | **5th Position** | Aurigo InfraCode Hackathon (IIIT Bangalore) |
-| 🚀 | **Waitlisted** | Smart India Hackathon 2025 |
-| 🤖 | **Selected** | AI for Bharat 2026 (Hack2Skill) |
-
+  <img src="assets/achievements.svg" width="85%" alt="Finalist at Elite Hack 1.0 and HackShodh, 5th position at Aurigo InfraCode Hackathon, waitlisted at Smart India Hackathon 2025, selected for AI for Bharat 2026"/>
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🚀 Project I'm Working On
 
-### 🧩 ZeroTrace: team project
+### 🧩 ZeroTrace (team project)
 
 <div align="center">
 
 <a href="https://github.com/MK-codes365/zerotrace" title="Open the ZeroTrace repository">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MK-codes365&repo=zerotrace&theme=radical&hide_border=true" alt="ZeroTrace repo card"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MK-codes365&repo=zerotrace&theme=synthwave&hide_border=true" alt="ZeroTrace repo card"/>
 </a>
 
 </div>
 
-ZeroTrace is a team project: a data sanitization and forensic file recovery platform built for the NTRO SIH26149 problem statement. I'm contributing to it as a team member.
+ZeroTrace is a team project: a data sanitization and forensic file recovery platform built for the NTRO SIH26149 problem statement. I contribute to it as a team member.
 
 <details>
-<summary><b>📖 What the project covers (click to expand)</b></summary>
+<summary><b>📖 What the project covers</b></summary>
 <br/>
 
 - Secure data wiping aligned with standards like NIST SP 800-88 and DoD 5220.22-M
@@ -75,7 +73,7 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 </details>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🛠️ Skills
 
@@ -85,34 +83,33 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 <br/><br/>
 
-**Languages & Web:** Python • C++ • HTML • CSS • JavaScript • React • SQL • MySQL
+**Python • C++ • HTML • CSS • JavaScript • React • SQL • MySQL**
 
 <br/>
 
-![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-7c3aed?style=for-the-badge)
-![DBMS](https://img.shields.io/badge/DBMS-0284c7?style=for-the-badge)
-![OS](https://img.shields.io/badge/Operating%20Systems-059669?style=for-the-badge)
-![CN](https://img.shields.io/badge/Computer%20Networks-ea580c?style=for-the-badge)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0f172a?style=for-the-badge&logo=hackthebox&logoColor=22d3ee)
+<img src="https://img.shields.io/badge/DATA%20STRUCTURES%20%26%20ALGORITHMS-7c3aed?style=for-the-badge" alt="DSA"/>
+<img src="https://img.shields.io/badge/DBMS-0284c7?style=for-the-badge" alt="DBMS"/>
+<img src="https://img.shields.io/badge/OS-059669?style=for-the-badge" alt="OS"/>
+<img src="https://img.shields.io/badge/COMPUTER%20NETWORKS-ea580c?style=for-the-badge" alt="CN"/>
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&theme=radical&hide_border=true" alt="top languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&theme=synthwave&hide_border=true&count_private=true" alt="stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&theme=synthwave&hide_border=true" alt="top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=jainshreya2004&theme=radical&hide_border=true" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=jainshreya2004&theme=synthwave&hide_border=true" alt="streak"/>
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🐍 Contribution Snake
 
@@ -122,7 +119,7 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 📫 Let's Connect
 
@@ -131,10 +128,6 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" title="Connect on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:YOUR-EMAIL@example.com" title="Send an email"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=A855F7&center=true&vCenter=true&width=500&lines=Thanks+for+stopping+by;Let%27s+learn+and+build+together" alt="footer typing"/>
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by"/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer"/>
