@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Shreya Jain - Cybersecurity | DSA | Hackathons"/>
+<img src="assets/header.svg" width="100%" alt="Shreya Jain - Cybersecurity Enthusiast"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/CYBERSECURITY-0f172a?style=for-the-badge&logo=hackthebox&logoColor=22d3ee" alt="Cybersecurity"/>
-<img src="https://img.shields.io/badge/DSA-7c3aed?style=for-the-badge" alt="DSA"/>
-<img src="https://img.shields.io/badge/B.TECH%204TH%20YEAR-e879f9?style=for-the-badge&labelColor=0f172a" alt="B.Tech 4th year"/>
-<img src="https://img.shields.io/github/followers/jainshreya2004?label=FOLLOWERS&style=for-the-badge&color=22d3ee&labelColor=0f172a&logo=github" alt="followers"/>
+<img src="https://img.shields.io/badge/CYBERSECURITY%20ENTHUSIAST-ec4899?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=180424" alt="Cybersecurity Enthusiast"/>
+<img src="https://img.shields.io/badge/DSA-db2777?style=for-the-badge&labelColor=180424" alt="DSA"/>
+<img src="https://img.shields.io/badge/B.TECH%204TH%20YEAR-f472b6?style=for-the-badge&labelColor=180424" alt="B.Tech 4th year"/>
+<img src="https://img.shields.io/github/followers/jainshreya2004?label=FOLLOWERS&style=for-the-badge&color=ec4899&labelColor=180424&logo=github" alt="followers"/>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -16,81 +16,84 @@
 ## 🌟 About Me
 
 <div align="center">
-  <img src="assets/terminal.svg" width="85%" alt="Terminal: Shreya Jain, B.Tech 4th year at CSJMU Kanpur, interested in cybersecurity, digital forensics and DSA"/>
+  <img src="assets/terminal.svg" width="85%" alt="Terminal: Shreya Jain, Cybersecurity Enthusiast at CSJMU Kanpur"/>
 </div>
 
 <br/>
 
 - 🎓 **B.Tech student (4th year)** at Chhatrapati Shahu Ji Maharaj University, Kanpur
-- 🔐 Passionate about **cybersecurity**
-- 🌱 Learning **Data Structures & Algorithms** and **cybersecurity concepts**
-- 🧩 Working on **ZeroTrace** with my team
-- 🤝 Open to collaborating on cybersecurity and web projects
+- 🔐 **Cybersecurity enthusiast** passionate about digital forensics, secure software, and DSA
+- 🌱 Constantly learning advanced **Data Structures & Algorithms** and system security
+- 🧩 Contributing to **ZeroTrace** — a defense-grade sanitization & forensic recovery platform
+- 🤝 Open to collaborating on cybersecurity challenges, digital forensics, and full-stack projects
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="assets/achievements.svg" width="85%" alt="Finalist at Elite Hack 1.0 and HackShodh, 5th position at Aurigo InfraCode Hackathon, waitlisted at Smart India Hackathon 2025, selected for AI for Bharat 2026"/>
+  <img src="assets/achievements.svg" width="85%" alt="Hackathon achievements and awards"/>
 </div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
 ## 🚀 Project I'm Working On
 
-### 🧩 ZeroTrace (team project)
+### 🧩 ZeroTrace (Team Project)
 
 <div align="center">
 
 <a href="https://github.com/MK-codes365/zerotrace" title="Open the ZeroTrace repository">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MK-codes365&repo=zerotrace&theme=synthwave&hide_border=true" alt="ZeroTrace repo card"/>
+  <img src="assets/zerotrace-card.svg" width="90%" alt="ZeroTrace Project Overview"/>
 </a>
+
+<br/><br/>
+
+<a href="https://github.com/MK-codes365/zerotrace" target="_blank">
+  <img src="https://img.shields.io/badge/ZeroTrace%20Repo-MK--codes365%2Fzerotrace-ec4899?style=for-the-badge&logo=github&logoColor=white&labelColor=180424" alt="ZeroTrace GitHub Repo"/>
+</a>
+<img src="https://img.shields.io/badge/NTRO-SIH26149-db2777?style=for-the-badge&logo=shield&logoColor=white&labelColor=180424" alt="NTRO Problem Statement"/>
+<img src="https://img.shields.io/badge/Status-Defense--Grade%20Forensic%20Platform-f472b6?style=for-the-badge&labelColor=180424" alt="Defense-Grade Platform"/>
 
 </div>
 
-ZeroTrace is a team project: a data sanitization and forensic file recovery platform built for the NTRO SIH26149 problem statement. I contribute to it as a team member.
-
-<details>
-<summary><b>📖 What the project covers</b></summary>
 <br/>
 
-- Secure data wiping aligned with standards like NIST SP 800-88 and DoD 5220.22-M
-- Forensic file recovery using file carving
-- Tamper-evident records using Merkle trees and hash chains
-- A Windows desktop tool and a web dashboard
+**ZeroTrace** unifies irreversible media erasure and forensic-grade data recovery into a single tamper-evident ecosystem. Engineered for defense agencies, law enforcement digital forensic units, and enterprise cybersecurity operations addressing the **NTRO SIH26149** problem statement.
+
+<details open>
+<summary><b>📖 Comprehensive Project Description</b></summary>
+<br/>
+
+- **Irreversible Media Sanitization**: Defense-grade physical and logical data wiping aligned with **NIST SP 800-88 Rev. 1** (Purge & Clear) and **DoD 5220.22-M** standards.
+- **Forensic File Recovery**: In-depth file carving reconstructing corrupted, formatted, or deleted files from raw disk sectors without relying on filesystem metadata.
+- **Tamper-Evident Audit Logging**: Cryptographically verifiable chain of custody generated using **SHA-256 Hash Chains** and **Merkle Trees** to guarantee non-repudiation.
+- **Dual Platform Architecture**: Standalone low-level **Windows Desktop Application** for raw storage operations coupled with a modern real-time **Web Dashboard**.
 
 </details>
 
-<details>
-<summary><b>🎯 What I'm learning from it</b></summary>
+<details open>
+<summary><b>🛠️ ZeroTrace Tech Stack</b></summary>
 <br/>
 
-- How secure erasure standards differ and why they matter
-- How file carving recovers data from raw disk images
-- How hashing and Merkle trees prove integrity
-- Working in a team on a shared codebase with Git
+- **Core & Backend**: Python 3.11, FastAPI, Raw Disk I/O, Asyncio
+- **Frontend & UI**: React 19, Vite 7, TailwindCSS v4, GSAP Animations
+- **Forensic & Cryptographic Engine**: File Carving Algorithms (Scalpel/Foremost style), Cryptographic Merkle Trees, SHA-256 Hashing, NIST SP 800-88 / DoD 5220.22-M Sanitization Protocols
+- **Deployment & Tooling**: Windows Native Tooling, Vercel, Git & GitHub
 
 </details>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt=""/></div>
 
-## 🛠️ Skills
+## 🛠️ Skills & Core Concepts
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,cpp,html,css,js,react,mysql,git,github,linux,vscode&perline=11&theme=dark" alt="skills"/>
+<img src="assets/skills.svg" width="90%" alt="Skills and Core Computer Science Concepts"/>
 
 <br/><br/>
 
-**Python • C++ • HTML • CSS • JavaScript • React • SQL • MySQL**
-
-<br/>
-
-<img src="https://img.shields.io/badge/DATA%20STRUCTURES%20%26%20ALGORITHMS-7c3aed?style=for-the-badge" alt="DSA"/>
-<img src="https://img.shields.io/badge/DBMS-0284c7?style=for-the-badge" alt="DBMS"/>
-<img src="https://img.shields.io/badge/OS-059669?style=for-the-badge" alt="OS"/>
-<img src="https://img.shields.io/badge/COMPUTER%20NETWORKS-ea580c?style=for-the-badge" alt="CN"/>
+<img src="https://skillicons.dev/icons?i=py,cpp,html,css,js,react,mysql,git,github,linux,vscode&perline=11&theme=dark" alt="skills icons"/>
 
 </div>
 
@@ -100,12 +103,12 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&theme=synthwave&hide_border=true&count_private=true" alt="stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&theme=synthwave&hide_border=true" alt="top languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&title_color=f472b6&icon_color=ec4899&text_color=fda4af&bg_color=180424&border_color=f472b6&count_private=true" alt="stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&title_color=f472b6&icon_color=ec4899&text_color=fda4af&bg_color=180424&border_color=f472b6" alt="top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=jainshreya2004&theme=synthwave&hide_border=true" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=jainshreya2004&background=180424&border=f472b6&stroke=ec4899&ring=f472b6&fire=ec4899&currStreakNum=fda4af&sideNums=fda4af&currStreakLabel=f472b6&sideLabels=f472b6&dates=fda4af" alt="streak"/>
 
 </div>
 
@@ -130,11 +133,11 @@ ZeroTrace is a team project: a data sanitization and forensic file recovery plat
 <div align="center">
 
 <p align="center">
-  <em>Always excited to connect, collaborate on cybersecurity & web projects, or discuss tech!</em>
+  <em>Always excited to connect, collaborate on cybersecurity &amp; web projects, or discuss tech!</em>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jainshreya2004" target="_blank" title="Connect with Shreya on LinkedIn">
+  <a href="https://www.linkedin.com/in/shreya-jain-ba7034275" target="_blank" title="Connect with Shreya on LinkedIn">
     <img src="assets/badge-linkedin.svg" alt="LinkedIn" height="50"/>
   </a>
   &nbsp;&nbsp;
