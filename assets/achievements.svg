@@ -45,7 +45,7 @@
     </circle>
     <text x="58" y="52" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#fbbf24">★</text>
     <text x="100" y="41" font-family="'Segoe UI', -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Finalist</text>
-    <text x="100" y="63" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#fde68a">Elite Hack 1.0 (National Hackathon) — <tspan font-weight="700" fill="#fbbf24">GOLD</tspan></text>
+    <text x="100" y="63" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#fde68a">Elite Hack 1.0 (National Hackathon)</text>
   </g>
 
   <!-- Card 2: Finalist - HackShodh (SILVER) -->
@@ -59,7 +59,7 @@
     </circle>
     <text x="58" y="124" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">★</text>
     <text x="100" y="113" font-family="'Segoe UI', -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Finalist</text>
-    <text x="100" y="135" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#cbd5e1">HackShodh (CSJM University, Kanpur) — <tspan font-weight="700" fill="#f1f5f9">SILVER</tspan></text>
+    <text x="100" y="135" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#cbd5e1">HackShodh (CSJM University, Kanpur)</text>
   </g>
 
   <!-- Card 3: 5th Position - Aurigo InfraCode (BRONZE / BROWN) -->
@@ -73,7 +73,7 @@
     </circle>
     <text x="58" y="196" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="800" fill="#fed7aa">5th</text>
     <text x="100" y="185" font-family="'Segoe UI', -apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff">5th Position</text>
-    <text x="100" y="207" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#fbcfe8">Aurigo InfraCode Hackathon (IIIT Bangalore) — <tspan font-weight="700" fill="#f59e0b">BRONZE</tspan></text>
+    <text x="100" y="207" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" fill="#fbcfe8">Aurigo InfraCode Hackathon (IIIT Bangalore)</text>
   </g>
 
   <!-- Card 4: Waitlisted - Smart India Hackathon (VIBRANT BLUE) -->
