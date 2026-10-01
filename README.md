@@ -1,38 +1,86 @@
-<!-- ═══════════════ HEADER BANNER (animated wave) ═══════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%2C%20I'm%20Shreya%20👋&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Learner%20%7C%20Builder&descAlignY=58&descSize=20" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Mukut&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cybersecurity%20%7C%20Forensics%20%7C%20Systems&descAlignY=58&descSize=20" width="100%" alt="header"/>
 
-<!-- Typing animation -->
-<a href="https://github.com/jainshreya2004">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile+✨;Building+cool+things+with+code+💻;Always+learning%2C+always+growing+🌱;Let's+collaborate+and+create+🚀" alt="Typing SVG" />
+<a href="https://github.com/MK-codes365/zerotrace">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer;Building+ZeroTrace+-+Data+Sanitization+and+Forensics;NIST+800-88+%7C+DoD+5220.22-M+%7C+Gutmann+35-Pass;Merkle+Trees+and+Hash+Chains+for+tamper-evident+proof" alt="Typing animation" />
 </a>
 
-<br/>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=jainshreya2004&label=Profile%20Views&color=a855f7&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/jainshreya2004?label=Followers&style=for-the-badge&color=ec4899&logo=github" alt="followers"/>
+<img src="https://komarev.com/ghpvc/?username=MK-codes365&label=Profile%20Views&color=0284c7&style=for-the-badge" alt="views"/>
+<img src="https://img.shields.io/github/followers/MK-codes365?label=Followers&style=for-the-badge&color=4f46e5&logo=github" alt="followers"/>
+<img src="https://img.shields.io/badge/NTRO-SIH26149-059669?style=for-the-badge&logo=shield&logoColor=white" alt="SIH"/>
 
 </div>
 
 ---
 
-## 🌟 About Me
+## 🛡️ About Me
 
-<img align="right" width="320" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/coder.gif" alt="coding gif"/>
+```bash
+$ whoami
+mukut — cybersecurity & systems developer
 
-```js
-const shreya = {
-  username: "jainshreya2004",
-  currentlyWorkingOn: "Something exciting 🔭",
-  currentlyLearning: ["New frameworks", "System design", "Cloud ☁️"],
-  lookingToCollaborateOn: "Open-source & creative projects 👯",
-  askMeAbout: ["Web dev", "Problem solving", "Tech career tips"],
-  funFact: "I turn coffee into code ☕ → 💻",
-};
+$ cat role.txt
+Developer on ZeroTrace: defense-grade data sanitization + forensic file recovery
+
+$ cat focus.txt
+secure erasure | file carving | cryptographic audit trails | backend systems
 ```
 
-<br clear="right"/>
+- 🎓 Information Technology student at CSJMU, Kanpur (graduating 2027)
+- 🔐 Working on **[ZeroTrace®](https://github.com/MK-codes365/zerotrace "Open the ZeroTrace repo")**, built for the NTRO SIH26149 problem statement
+- ⚙️ I like backend and systems-level work: raw disk I/O, parallel engines, integrity proofs
+- 💬 Ask me about: secure wiping standards, file carving, Merkle trees, FastAPI backends
+
+---
+
+## 🚀 Featured Project: ZeroTrace®
+
+<div align="center">
+
+<a href="https://github.com/MK-codes365/zerotrace">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MK-codes365&repo=zerotrace&theme=radical&hide_border=true" alt="ZeroTrace repo card"/>
+</a>
+
+</div>
+
+**Integrated defense-grade data sanitization and forensic file recovery platform**, with a Windows desktop workstation and a live web dashboard.
+
+<details open>
+<summary><b>🔮 Core engines (click to collapse)</b></summary>
+<br/>
+
+| Engine | Purpose |
+| :--- | :--- |
+| ⚙️ **Master-Worker** | Parallel sector overwriting and multi-threaded carving |
+| 🗺️ **MapReduce** | Splits multi-GB disk streams into overlapping chunks |
+| 🎯 **Consensus Scoring** | Validates header, footer, chunk syntax and entropy |
+| 🕸️ **Fragment Graph** | Rebuilds non-contiguous files across disk gaps |
+| 🌲 **Merkle Tree** | O(log N) integrity proofs for certificates |
+| ⛓️ **Hash Chain** | Tamper-evident chain-of-custody ledger |
+
+</details>
+
+<details>
+<summary><b>📜 Compliance standards covered</b></summary>
+<br/>
+
+`NIST SP 800-88 Rev 1` • `DoD 5220.22-M (3/7-pass)` • `Peter Gutmann 35-pass` • `ISO/IEC 27037`
+
+</details>
+
+<details>
+<summary><b>💻 What I work on in the stack</b></summary>
+<br/>
+
+- Desktop: Python, CustomTkinter, raw disk handles on Windows
+- Web: React 19, Vite, GSAP, TailwindCSS v4
+- Backend: FastAPI, SQLAlchemy, SQLite
+- Deployment: Vercel
+
+</details>
 
 ---
 
@@ -40,16 +88,14 @@ const shreya = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,js,ts,java,cpp,html,css,react,nodejs,express,mongodb,mysql,git,github,docker,linux,vscode&perline=9&theme=dark" alt="skills"/>
+<img src="https://skillicons.dev/icons?i=py,fastapi,react,vite,tailwind,js,ts,sqlite,git,github,linux,powershell,vercel,vscode&perline=7&theme=dark" alt="skills"/>
 
 <br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0f172a?style=for-the-badge&logo=hackthebox&logoColor=22d3ee)
+![Digital Forensics](https://img.shields.io/badge/Digital%20Forensics-1d4ed8?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-059669?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![Systems](https://img.shields.io/badge/Systems%20Programming-7c3aed?style=for-the-badge&logo=gnubash&logoColor=white)
 
 </div>
 
@@ -59,76 +105,14 @@ const shreya = {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jainshreya2004&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jainshreya2004&layout=compact&theme=radical&hide_border=true" alt="top langs"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=MK-codes365&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MK-codes365&layout=compact&theme=radical&hide_border=true" alt="top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=jainshreya2004&theme=radical&hide_border=true" alt="streak"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jainshreya2004&theme=react-dark&hide_border=true&area=true&color=a855f7&line=ec4899&point=ffffff" width="95%" alt="activity graph"/>
+<img src="https://streak-stats.demolab.com?user=MK-codes365&theme=radical&hide_border=true" alt="streak"/>
 
 </div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=jainshreya2004&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="trophies"/>
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/jainshreya2004/YOUR-REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jainshreya2004&repo=YOUR-REPO-1&theme=radical&hide_border=true" alt="project 1"/>
-</a>
-<a href="https://github.com/jainshreya2004/YOUR-REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jainshreya2004&repo=YOUR-REPO-2&theme=radical&hide_border=true" alt="project 2"/>
-</a>
-
-</div>
-
----
-
-## 🎯 Click to Expand
-
-<details>
-<summary><b>🔭 What I'm working on right now</b></summary>
-<br/>
-
-- 🚧 Project one — short description
-- 🚧 Project two — short description
-
-</details>
-
-<details>
-<summary><b>🌱 What I'm learning</b></summary>
-<br/>
-
-- 📘 Data structures & algorithms
-- 📗 System design
-- 📙 Cloud & DevOps
-
-</details>
-
-<details>
-<summary><b>💡 Fun facts</b></summary>
-<br/>
-
-- ☕ Runs on coffee
-- 🎧 Codes best with lo-fi playing
-- 🌙 Night owl by nature
-
-</details>
 
 ---
 
@@ -136,8 +120,7 @@ const shreya = {
 
 <div align="center">
 
-<!-- Needs the snake GitHub Action, see setup notes below -->
-<img src="https://raw.githubusercontent.com/jainshreya2004/jainshreya2004/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+<img src="https://raw.githubusercontent.com/MK-codes365/MK-codes365/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 
 </div>
 
@@ -147,14 +130,13 @@ const shreya = {
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://twitter.com/YOUR-HANDLE"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
-<a href="https://YOUR-PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN" title="Connect on LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:YOUR-EMAIL@example.com" title="Send an email"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/MK-codes365/zerotrace" title="See ZeroTrace"><img src="https://img.shields.io/badge/ZeroTrace-0284c7?style=for-the-badge&logo=github&logoColor=white" alt="ZeroTrace"/></a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=EC4899&center=true&vCenter=true&width=500&lines=Thanks+for+stopping+by!+💜;Don't+forget+to+⭐+a+repo+on+your+way+out" alt="footer typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=A855F7&center=true&vCenter=true&width=500&lines=Thanks+for+stopping+by;Star+ZeroTrace+if+you+like+it" alt="footer typing"/>
 
 </div>
 
